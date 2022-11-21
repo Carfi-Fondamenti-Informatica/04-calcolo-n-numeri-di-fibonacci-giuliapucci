@@ -17,10 +17,11 @@ int main() {
         while (i++ <= n) {
             cout << n1 + n2 << endl;
             if (n >= 2) {
-                if (n1 < n2)
+                if (n1 < n2){
                     n1 += n2;
-                 else
+                }else{
                     n2 += n1;
+                }
                 }
         }
         }
