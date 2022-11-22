@@ -10,10 +10,7 @@ int main() {
     if ((n==0) or (n==1)) {
         cout << "errore" << endl;
     } else {
-        cout << n1 << endl;
-        cout << n2 << endl;
-
-        int i = 3;
+       int i = 3;
         while (i++ <= n) {
             cout << n1 + n2 << endl;
             if (n >= 2) {
