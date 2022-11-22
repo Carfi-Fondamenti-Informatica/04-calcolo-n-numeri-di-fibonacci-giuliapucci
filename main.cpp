@@ -5,7 +5,7 @@ int main() {
     int n1 = 1;
     int n2 = 1;
     int n;
-    cout << "scegliere un numero" << endl;
+  
     cin >> n;
     if ((n==0) or (n==1)) {
         cout << "errore" << endl;
